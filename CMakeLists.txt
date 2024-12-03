@@ -19,3 +19,10 @@ add_executable(Ejercicio_3
         "Ejercicio3/main3.cpp"
         Ejercicio3/Circ.cpp
         Ejercicio3/Circ.h)
+add_executable(Ejercicio_4
+        "Ejercicio4/main4.cpp"
+        "Ejercicio4/Ciencia.cpp"
+        "Ejercicio4/Ciencia.h"
+         )
+add_executable(Ejercicio_5
+"Ejercicio5/main5.cpp")
