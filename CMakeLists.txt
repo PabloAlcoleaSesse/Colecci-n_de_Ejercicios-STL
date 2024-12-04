@@ -4,25 +4,23 @@ project(Colecci_n_de_Ejercicios_STL)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(Ejercicio_1
+        "main.cpp"
         "Ejercicio1/Matematicas.cpp"
         "Ejercicio1/Matematicas.h"
-        "Ejercicio1/main1.cpp"
         "Ejercicio2/circulo.h"
-        "Ejercicio2/main2.cpp")
-add_executable(Ejercicio_2
+
         "Ejercicio2/circulo.cpp"
         "Ejercicio2/circulo.h"
-        "Ejercicio2/main2.cpp"
+
         "Ejercicio2/tiangulo.cpp"
-        "Ejercicio2/tiangulo.h")
-add_executable(Ejercicio_3
-        "Ejercicio3/main3.cpp"
-        Ejercicio3/Circ.cpp
-        Ejercicio3/Circ.h)
-add_executable(Ejercicio_4
-        "Ejercicio4/main4.cpp"
+        "Ejercicio2/tiangulo.h"
+
+        "Ejercicio3/Circ.cpp"
+        "Ejercicio3/Circ.h"
+
         "Ejercicio4/Ciencia.cpp"
         "Ejercicio4/Ciencia.h"
-         )
-add_executable(Ejercicio_5
-"Ejercicio5/main5.cpp")
+        Ejercicio3/ejercicio3.h
+        Ejercicio3/ejercicio3.cpp
+        Ejercicio2/ejercicio2.cpp
+        Ejercicio5/ejercicio5.cpp)

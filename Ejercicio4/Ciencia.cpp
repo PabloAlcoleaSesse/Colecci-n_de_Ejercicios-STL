@@ -3,6 +3,7 @@
 //
 
 #include "Ciencia.h"
+#include <iostream>
 
 namespace Ciencia1 {
     namespace Fisica {
@@ -10,4 +11,9 @@ namespace Ciencia1 {
             return masa * c * c;
         }
     }
+}
+
+
+void ejercicio4() {
+    std::cout << "Energia: " << Ciencia1::Fisica::calcularEnergia(10);
 }

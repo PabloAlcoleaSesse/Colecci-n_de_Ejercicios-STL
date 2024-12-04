@@ -8,18 +8,16 @@
 
 constexpr double Pi = 3.14159265358979323846;
 
-namespace Geometría {
+namespace Geometria {
     class Circulo {
     private:
         double radio;
     public:
-        Circulo(double radio) : radio(radio) {}
-        double calcularArea() {
-            return Pi * radio * radio;
-        }
-        double calcularPerimetro() {
-            return 2 * Pi * radio;
-        }
+       explicit Circulo(int radio);
+        double calcularArea() const;
+        double calcularPerimetro() const;
     };
 }
+
+void ejercicio3();
 #endif // CIRCULO_H

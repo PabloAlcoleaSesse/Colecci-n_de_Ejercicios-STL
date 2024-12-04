@@ -13,6 +13,6 @@ namespace Ciencia1 {
         }
     }
 
-
+void ejercicio4();
 
 #endif //CIENCIA_H

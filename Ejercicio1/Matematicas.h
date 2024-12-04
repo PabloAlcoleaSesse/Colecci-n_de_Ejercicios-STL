@@ -10,4 +10,5 @@ namespace Matematicas {
     int resta(int a, int b);
 }
 
+void ejercicio1();
 #endif //MATEMATICAS_H
